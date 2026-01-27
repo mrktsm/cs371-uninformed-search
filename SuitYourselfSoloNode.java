@@ -88,5 +88,9 @@ public class SuitYourselfSoloNode extends SearchNode {
                Arrays.equals(topSuit, that.topSuit);
     }
         
+    @Override
+    public String toString() {
+        return "Piles: " + Arrays.toString(pileSize) + ", Tops: " + Arrays.toString(topSuit);
+    }
 
 }
