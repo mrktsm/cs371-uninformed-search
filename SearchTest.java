@@ -37,15 +37,16 @@ public class SearchTest {
 
 		// Create the searcher object (uncomment desired code)
 
-		Searcher searcher = new BreadthFirstSearcher();
-//		Searcher searcher = new DepthFirstSearcher();
+		// Searcher searcher = new BreadthFirstSearcher();
+		Searcher searcher = new DepthFirstSearcher();
 //		Searcher searcher = new RecursiveDepthFirstSearcher();
 //		Searcher searcher = new DepthLimitedSearcher(Integer.MAX_VALUE);
 //		Searcher searcher = new IterativeDeepeningDepthFirstSearcher();
 
 		// Create the root search node (uncomment desired code)
 
-		SearchNode root = new PegSolitaireNode();
+		SearchNode root = new SuitYourselfSoloNode(4, 13, 8, 0);
+		// SearchNode root = new PegSolitaireNode();
 //		SearchNode root = new BucketsNode();
 //		LightsOutNode root = new LightsOutNode(4); root.makeRandomMoves(1000);
 //		TilePuzzleNode root = new TilePuzzleNode(4); root.makeRandomMoves(8);
