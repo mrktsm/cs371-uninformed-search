@@ -38,10 +38,10 @@ public class SearchTest {
 		// Create the searcher object (uncomment desired code)
 
 		// Searcher searcher = new BreadthFirstSearcher();
-		Searcher searcher = new DepthFirstSearcher();
+		// Searcher searcher = new DepthFirstSearcher();
 //		Searcher searcher = new RecursiveDepthFirstSearcher();
 //		Searcher searcher = new DepthLimitedSearcher(Integer.MAX_VALUE);
-//		Searcher searcher = new IterativeDeepeningDepthFirstSearcher();
+		Searcher searcher = new IterativeDeepeningDepthFirstSearcher();
 
 		// Create the root search node (uncomment desired code)
 
