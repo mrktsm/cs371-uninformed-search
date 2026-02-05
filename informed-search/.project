@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>cs371-uninformed-search</name>
+	<name>informed-search</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1769482593768</id>
+			<id>1770270695010</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
